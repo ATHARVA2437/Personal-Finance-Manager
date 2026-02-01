@@ -43,164 +43,88 @@ A **Java-based console application** designed to help users manage personal fina
 - **Language:** Java 8+  
 - **Data Storage:** CSV Files  
 - **Architecture:** Object-Oriented Programming (OOP)  
-- **Version Control:** Git & GitHub  
+- **Version Control:** Git & GitHub
 
 ---
 
-## 📁 Project Structure  
-Personal-Finance-Manager/
-├── src/
-│ ├── FinanceManager.java # Main application class
-│ ├── Transaction.java # Transaction data model
-│ ├── Budget.java # Budget management
-│ ├── SavingsGoal.java # Savings goals management
-│ ├── Category.java # Category management
-│ ├── ReportGenerator.java # Financial reports
-│ └── DataManager.java # File I/O operations
-├── data/ # Data storage directory
-├── README.md
-├── compile.bat # Windows compilation script
-└── compile.sh # Unix/Linux compilation script
+## 💡 Usage Examples  
 
+### ➕ Adding a Transaction  
+1. Select **"Add Transaction"** from the main menu  
+2. Choose **Income** or **Expense**  
+3. Enter the amount, select a category, and add a description  
+4. Optionally specify a date (defaults to today)  
 
 ---
 
-## 🚀 Getting Started  
-
-### ✅ Prerequisites  
-- Java Development Kit (JDK) 8 or higher  
-- Command Line / Terminal access  
+### 📊 Setting Up a Budget  
+1. Go to **"Budget Management"**  
+2. Select **"Set Category Budget"**  
+3. Choose a category and enter the monthly budget amount  
+4. The system automatically tracks spending against this limit  
 
 ---
 
-### ▶️ Installation & Running  
+### 🎯 Creating a Savings Goal  
+1. Navigate to **"Savings Goals"**  
+2. Select **"Create New Goal"**  
+3. Enter the goal name, target amount, and target date  
+4. Track progress by adding savings regularly  
 
-### Windows  
-**Option 1 (Recommended):**  
-Double-click:  
-compile.bat
+---
 
+## 📊 Sample Categories  
 
-**Option 2 (Manual):**  
-```bash
-cd Personal-Finance-Manager
-javac -d . src/*.java
-java src.FinanceManager
-Unix / Linux / Mac
-Option 1 (Recommended):
+### 💵 Income Categories  
+- Salary  
+- Freelance  
+- Business  
+- Investments  
+- Gifts  
+- Other Income  
 
-./compile.sh
-Option 2 (Manual):
+### 🧾 Expense Categories  
+- Food & Dining  
+- Transportation  
+- Shopping  
+- Entertainment  
+- Bills & Utilities  
+- Healthcare  
+- Education  
+- Travel  
+- Insurance  
+- Miscellaneous  
 
-cd Personal-Finance-Manager
-javac -d . src/*.java
-java src.FinanceManager
-💡 Usage Examples
-➕ Adding a Transaction
-Select "Add Transaction" from the main menu
+---
 
-Choose Income or Expense
+## 🎯 Key Programming Concepts Demonstrated  
+- **Object-Oriented Programming:** Classes, encapsulation, modular design  
+- **Collections Framework:** ArrayList, HashMap  
+- **File I/O:** Reading and writing CSV files with exception handling  
+- **Date & Time API:** LocalDate, YearMonth usage  
+- **Data Validation:** Input validation and error handling  
+- **Menu-Driven Interface:** User interaction design  
+- **Data Persistence:** CSV-based storage system  
 
-Enter amount, select category, and add a description
+---
 
-Optionally specify a date (defaults to today)
+## 📈 Highlights  
+This project demonstrates:  
+- Real-world financial workflow implementation  
+- Structured application design  
+- Data management and persistence  
+- Error handling and validation  
+- Modular and readable codebase  
+- Practical use of Java collections and file handling  
 
-📊 Setting Up a Budget
-Go to "Budget Management"
+---
 
-Select "Set Category Budget"
-
-Choose a category and enter the monthly budget amount
-
-The system automatically tracks spending against this limit
-
-🎯 Creating a Savings Goal
-Navigate to "Savings Goals"
-
-Select "Create New Goal"
-
-Enter goal name, target amount, and target date
-
-Track progress by adding savings regularly
-
-📊 Sample Categories
-💵 Income Categories
-Salary
-
-Freelance
-
-Business
-
-Investments
-
-Gifts
-
-Other Income
-
-🧾 Expense Categories
-Food & Dining
-
-Transportation
-
-Shopping
-
-Entertainment
-
-Bills & Utilities
-
-Healthcare
-
-Education
-
-Travel
-
-Insurance
-
-Miscellaneous
-
-🎯 Key Programming Concepts Demonstrated
-Object-Oriented Programming: Classes, encapsulation, modular design
-
-Collections Framework: ArrayList, HashMap
-
-File I/O: Reading and writing CSV files with exception handling
-
-Date & Time API: LocalDate, YearMonth usage
-
-Data Validation: Input validation and error handling
-
-Menu-Driven Interface: User interaction design
-
-Data Persistence: CSV-based storage system
-
-📈 Highlights
-This project demonstrates:
-
-Real-world financial workflow implementation
-
-Structured application design
-
-Data management and persistence
-
-Error handling and validation
-
-Modular and readable codebase
-
-Practical use of Java collections and file handling
-
-🔧 Future Enhancements
-GUI interface using JavaFX / Swing
-
-Database integration (MySQL / PostgreSQL)
-
-Data visualization using charts and graphs
-
-Multi-user authentication system
-
-Mobile application integration
-
-Expense receipt scanning
-
-Investment portfolio tracking
-
-Automated bill reminders
+## 🔧 Future Enhancements  
+- GUI interface using **JavaFX / Swing**  
+- Database integration (**MySQL / PostgreSQL**)  
+- Data visualization using charts and graphs  
+- Multi-user authentication system  
+- Mobile application integration  
+- Expense receipt scanning  
+- Investment portfolio tracking  
+- Automated bill reminders  
